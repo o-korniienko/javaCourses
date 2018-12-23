@@ -10,7 +10,6 @@ public class Apartment {
     private TypeOfBuilding type;
 
     public Apartment(int numberOfRooms) {
-        this.id = (int) (Math.random() * 100);
         this.apartmentNumber = (int) (Math.random() * 100);
         this.area = (Math.random() * 31 + 15);
         this.floor = (int) (Math.random() * 9 + 1);
@@ -50,14 +49,18 @@ public class Apartment {
         return numberOfRooms;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "Apartment{" +
-                "apartmentNumber=" + apartmentNumber +
+                "id=" + id +
+                ", apartmentNumber=" + apartmentNumber +
                 ", area=" + area +
                 ", floor=" + floor +
                 ", numberOfRooms=" + numberOfRooms +
-                ", id=" + id +
                 ", lifetime=" + lifetime +
                 ", type='" + type + '\'' +
                 '}';

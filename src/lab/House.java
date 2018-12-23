@@ -17,13 +17,17 @@ public class House {
         this.threeRoomCount = threeRoomCount;
         this.index = -1;
         for (int i = 0; i < oneRoomCount; i++) {
+            int id = 1;
             addApartment(new Apartment(1));
+            apartments[index].setId(index + 1);
         }
         for (int i = 0; i < twoRoomCount; i++) {
             addApartment(new Apartment(2));
+            apartments[index].setId(index + 1);
         }
-        for (int i = 0; i < twoRoomCount; i++) {
+        for (int i = 0; i <= threeRoomCount; i++) {
             addApartment(new Apartment(3));
+            apartments[index].setId(index + 1);
         }
 
     }
@@ -43,6 +47,7 @@ public class House {
     public int getThreeRoomCount() {
         return threeRoomCount;
     }
+
 
     public void addApartment(Apartment apart) {
         if (index >= apartments.length - 1) {
