@@ -1,5 +1,8 @@
 package lab;
 
+
+import java.util.ArrayList;
+
 public class House {
     private String street;
     private int oneRoomCount;
@@ -8,7 +11,6 @@ public class House {
     private Apartment[] apartments;
     private int index;
 
-
     public House(String street, int oneRoomCount, int twoRoomCount, int threeRoomCount) {
         this.apartments = new Apartment[oneRoomCount + twoRoomCount + threeRoomCount + 1];
         this.street = street;
@@ -16,8 +18,8 @@ public class House {
         this.twoRoomCount = twoRoomCount;
         this.threeRoomCount = threeRoomCount;
         this.index = -1;
+
         for (int i = 0; i < oneRoomCount; i++) {
-            int id = 1;
             addApartment(new Apartment(1));
             apartments[index].setId(index + 1);
         }

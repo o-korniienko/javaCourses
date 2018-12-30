@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="265c193a-2986-48c4-8fb4-8b4798b18ce1" name="Default Changelist" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/a/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/a/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/Carp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/Duck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/Eagle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/Fish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/Shark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/animals/TestAnimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/b/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/calculate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/Calculator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorPanel$CommandAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorPanel$InsertAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/enums_lessen/Season.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/enums_lessen/TestSeason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/FrameTry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/TestFrameLoadPicture$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/TestFrameLoadPicture$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/TestFrameLoadPicture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/arrays_in_frame/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/arrays_in_frame/BookFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/arrays_in_frame/LIbrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/arrays_in_frame/TestBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/url_load/FileDown.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/url_load/FrameLoad$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/url_load/FrameLoad$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/url_load/FrameLoad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_practic/url_load/TestLoad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/HomeWorkArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/HomeWorkFactorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/HomeWorkHalfTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/HomeWorkTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/home_work_for_test/Task2NotSameDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/home_work_for_test/Task3MaxDividerAnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/home_work_for_test/TaskArraysIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/home_work_for_test/TaskArraysIndex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/home_work_for_test/TaskHalfSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/home_work_for_test/TaskNotSameDigits2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/home_work/home_work_for_test/TaskString1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/inheritance_les_11/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/inheritance_les_11/Point1D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/inheritance_les_11/Point2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/inheritance_les_11/Point3D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/inheritance_les_11/TestPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/jframe_practic/01 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/jframe_practic/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/jframe_practic/FramTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/jframe_practic/Frame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/jframe_practic/FrameQuestion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/jframe_practic/Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/lab/Apartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/lab/House.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/lab/TestHouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/lab/TypeOfBuilding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/ArrayToListAndBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/CascadeErrorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/CheckedErrors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/GoodExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/PrintArray2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/ScopeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TaskDiffDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TaskRightInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TestArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TestNumeralSystems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TestOverFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TestPrimitives.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TestTryCatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_/TestTryCatch2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_07_array_of_objects/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_07_array_of_objects/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_07_array_of_objects/Garage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_07_array_of_objects/Library.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_07_array_of_objects/TestCarArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_07_array_of_objects/TestGarage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_07_array_of_objects/TestLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_08_stringbuffer/LessonStringBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_08_stringbuffer/TaskStringBufferDelAllDots.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_08_stringbuffer/TestString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_08_stringbuffer/TestStringBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_10_date/DateIntro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_10_date/LocalDateIntro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_10_date/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_10_date/TestPerson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_11_inheritance/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_11_inheritance/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_11_inheritance/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_11_inheritance/TestShape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_11_inheritance/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_13_casting/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_13_casting/TestCasting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_13_casting/Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_14_interfaces1/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_14_interfaces1/TestMovieArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/CorectInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/TestEx3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/TestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/TestFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/TestMainThrows.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/TestMainThrows2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_16_exception/TestMemoryError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_17_collections_list/ConvertListArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_17_collections_list/TaskList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_17_collections_list/TaskList2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_17_collections_list/TestArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_17_collections_list/TestIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_17_collections_list/TestSubList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_17_collections_list/TestUnmodifiable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/Dictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/HashSetTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/Loto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/TestDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/TestHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/TestHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/TestLoto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/ArrayCopi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/Arrays2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/CopyArrays3Ways.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/ForEachTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/SortArrayTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/Task1Revers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/Task5Arrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/TaskAlfavit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/TaskAverage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/TaskMasPrin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/TaskMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/TaskTherrArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_4/TaskWort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_5/Arrays2d.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_5/PascalTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_5/TAskDiffDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_5/Zadacha.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/CurrencyTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/FactorialMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/MethodChangesInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/MethodDoesntChangeInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/MethodTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/PalidromeTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/PrimeNumberTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/TaskFib.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/TaskFiban.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/TestTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_6_methods/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/Fibo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/TestCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/TestDog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/TestFibo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/TestPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/Triangle1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/les_7_classes/TriangleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/lesen_static_notstatic/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled/lesen_static_notstatic/TestPerson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/untitled/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Carp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/TestAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculate/.idea/calculate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculate/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculate/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums_lessen/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums_lessen/TestSeason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/FrameTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/TestFrameLoadPicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/TestJscrollpane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_practic/arrays_in_frame/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_practic/arrays_in_frame/BookFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_practic/arrays_in_frame/LIbrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_practic/arrays_in_frame/TestBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_practic/url_load" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/HomeWorkArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/HomeWorkFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/HomeWorkHalfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/HomeWorkTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/home_work_for_test/Task2NotSameDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/home_work_for_test/Task3MaxDividerAnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/home_work_for_test/TaskArraysIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/home_work_for_test/TaskArraysIndex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/home_work_for_test/TaskHalfSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/home_work_for_test/TaskNotSameDigits2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work/home_work_for_test/TaskString1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance_les_11/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance_les_11/Point1D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance_les_11/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance_les_11/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance_les_11/TestPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jframe_practic/01 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jframe_practic/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jframe_practic/FramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jframe_practic/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jframe_practic/FrameQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jframe_practic/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/ArrayToListAndBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/CascadeErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/CheckedErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/GoodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/PrintArray2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/ScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TaskDiffDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TaskRightInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TestNumeralSystems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TestOverFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TestPrimitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TestTryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_/TestTryCatch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_07_array_of_objects/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_07_array_of_objects/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_07_array_of_objects/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_07_array_of_objects/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_07_array_of_objects/TestCarArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_07_array_of_objects/TestGarage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_07_array_of_objects/TestLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_08_stringbuffer/LessonStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_08_stringbuffer/TaskStringBufferDelAllDots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_08_stringbuffer/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_08_stringbuffer/TestStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_10_date/DateIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_10_date/LocalDateIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_10_date/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_10_date/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_11_inheritance/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_11_inheritance/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_11_inheritance/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_11_inheritance/TestShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_11_inheritance/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_13_casting/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_13_casting/TestCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_13_casting/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_14_interfaces1/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_14_interfaces1/TestMovieArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/CorectInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/TestEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/TestMainThrows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/TestMainThrows2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_16_exception/TestMemoryError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_17_collections_list/ConvertListArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_17_collections_list/TaskList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_17_collections_list/TaskList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_17_collections_list/TestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_17_collections_list/TestIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_17_collections_list/TestSubList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_17_collections_list/TestUnmodifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_18_set_map/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_18_set_map/HashSetTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_18_set_map/Loto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_18_set_map/TestDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_18_set_map/TestHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_18_set_map/TestHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_18_set_map/TestLoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/ArrayCopi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/Arrays2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/CopyArrays3Ways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/ForEachTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/SortArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/Task1Revers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/Task5Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/TaskAlfavit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/TaskAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/TaskMasPrin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/TaskMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/TaskTherrArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_4/TaskWort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_5/Arrays2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_5/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_5/TAskDiffDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_5/Zadacha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/CurrencyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/FactorialMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/MethodChangesInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/MethodDoesntChangeInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/MethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/PalidromeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/PrimeNumberTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/TaskFib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/TaskFiban.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/TestTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_6_methods/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/TestCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/TestDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/TestFibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/TestPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/Triangle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les_7_classes/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesen_static_notstatic/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesen_static_notstatic/TestPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home_practic/url_load/FileDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/url_load/FileDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home_practic/url_load/FrameLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/url_load/FrameLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab/TestHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab/TestHouse.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/TestLoad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/FrameLoad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/home_practic/url_load" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/animals/AnimalsFrame.java" />
+        <option value="$PROJECT_DIR$/src/animals/Carp.java" />
+        <option value="$PROJECT_DIR$/src/animals/Fish.java" />
+        <option value="$PROJECT_DIR$/src/animals/Shark.java" />
+        <option value="$PROJECT_DIR$/src/animals/TestAnimal.java" />
+        <option value="$PROJECT_DIR$/src/practice_alience_or_horde/Frame.java" />
+        <option value="$PROJECT_DIR$/src/practice_alience_or_horde/Listener.java" />
+        <option value="$PROJECT_DIR$/src/practice_alience_or_horde/FrameQuestion.java" />
+        <option value="$PROJECT_DIR$/src/jframe_practic/Frame.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/Arrays.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/Test1.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/TestJscrollpane.java" />
+        <option value="$PROJECT_DIR$/src/example/TestJscrollpane.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/TestBook.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/Book.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/LIbrary.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/TestFullScreen.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/FullScreenJFrame.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/FullScreenEffect.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/BookFrame.java" />
+        <option value="$PROJECT_DIR$/src/lab/Apartment.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/ListenerLoad.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/JFrameTest.form" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/Q.form" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/A.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/AA.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/NewJFrame.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/TestFrame.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/TestFrameLoadPicture.java" />
+        <option value="$PROJECT_DIR$/src/example/TestFrameLoadPicture.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/LoadFromYoutube.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/JavaYoutubeDownloader.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/VGet.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/URLDownload.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/FrameLoad.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/FileDown.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/arrays_in_frame/BookFrame.java" />
+        <option value="$PROJECT_DIR$/src/lab/Apartment1.java" />
+        <option value="$PROJECT_DIR$/src/lab/Apartmentnew.java" />
+        <option value="$PROJECT_DIR$/src/lab/TestHouse.java" />
+        <option value="$PROJECT_DIR$/src/lab/House.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/TestFrameTry.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/A.form" />
+        <option value="$PROJECT_DIR$/src/home_practic/Test.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/FrameTry.java" />
+        <option value="$PROJECT_DIR$/src/example/FrameTry.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/A.form" />
+        <option value="$PROJECT_DIR$/src/com/intellij/uiDesigner/core/GridLayoutManager.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/A.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/TestA.java" />
+        <option value="$PROJECT_DIR$/src/home_practic/url_load/TestLoad.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1300" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="189" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546171581349" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="home_practic.url_load" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\untitled\src" />
+      <recent name="C:\Users\Alex\IdeaProjects\untitled\src\enums_lessen" />
+      <recent name="C:\Users\Alex\IdeaProjects\untitled\src\les_7_classes" />
+      <recent name="C:\Users\Alex\IdeaProjects\untitled\src\les_6_methods" />
+      <recent name="C:\Users\Alex\IdeaProjects\untitled\src\les_10_date" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.intellij.uiDesigner.core" />
+      <recent name="Call" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestLoad">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home_practic.Test" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home_practic.TestA" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFrameTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home_practic.TestFrameTry" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab.TestHouse" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home_practic.url_load.TestLoad" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home_practic.url_load.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestHouse" />
+      <item itemvalue="Application.TestFrameTry" />
+      <item itemvalue="Application.TestA" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestLoad" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestLoad" />
+        <item itemvalue="Application.TestA" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestFrameTry" />
+        <item itemvalue="Application.TestHouse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="265c193a-2986-48c4-8fb4-8b4798b18ce1" name="Default Changelist" comment="" />
+      <created>1542738214948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542738214948</updated>
+    </task>
+    <task id="LOCAL-00001" summary="change id">
+      <created>1545577403156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545577403156</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First cimmit">
+      <created>1545685213867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545685213867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20954692" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32949308" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.328341" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976957" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.328341" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32949308" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32949308" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949308" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20631067" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32949308" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.328341" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976957" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32949308" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.328341" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32949308" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32949308" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change id" />
+    <MESSAGE value="First cimmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First cimmit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/swing/JScrollPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="493" selection-start-line="493" selection-end-line="493" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/FullScreenEffect.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/FullScreenJFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/arrays_in_frame/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/arrays_in_frame/LIbrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/arrays_in_frame/url_load/FrameLoad.java" />
+    <entry file="file://$PROJECT_DIR$/src/example/TestJscrollpane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="566" selection-start-line="566" selection-end-line="566" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jframe_practic/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/les_16_exception/TestFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/les_16_exception/CorectInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jframe_practic/FrameQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jframe_practic/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1028" selection-start-line="1028" selection-end-line="1028" />
+          <folding>
+            <element signature="e#39608#39609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/ListenerLoad.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/JFrameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/JFrameTest.form" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/Q.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/Q.form" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/NewJFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/AA.form" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/AA.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/java/awt/EventDispatchThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jframe_practic/FramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/TestFrameLoadPicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/LoadFromYoutube.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/JavaYoutubeDownloader.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/POM.XML" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/VGet.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/URLDownload.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/FileDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/arrays_in_frame/TestBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/arrays_in_frame/BookFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/les_17_collections_list/TaskList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/Apartmentnew.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="120" column="42" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+          <folding>
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/Apartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/TypeOfBuilding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/les_18_set_map/Loto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/TestHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/TestFrameTry.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/A.form" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/example/FrameTry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/intellij/uiDesigner/core/GridLayoutManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/A.form" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/TestA.java" />
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/FrameLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/url_load/TestLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

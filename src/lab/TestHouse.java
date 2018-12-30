@@ -3,7 +3,7 @@ package lab;
 public class TestHouse {
     public static void main(String[] args) {
         House house = new House("Shevchenko 7A", 15, 8, 7);
-        house.findById(7);
+        house.findById(32);
         System.out.println("---------");
         house.delByid(28);
         house.printAll();
@@ -13,6 +13,5 @@ public class TestHouse {
         house.printByRoomsAndFloor(1, 2, 6);
         System.out.println("---------");
         house.printByArea(42);
-
     }
 }
