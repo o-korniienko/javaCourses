@@ -8,64 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="265c193a-2986-48c4-8fb4-8b4798b18ce1" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/calculate.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/Calculator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorPanel$CommandAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorPanel$InsertAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/calculate/CalculatorPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/enums_lessen/TestSeason.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/enums_lessen/TestSeason.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/FrameTry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/TestFrameLoadPicture$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/TestFrameLoadPicture$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/TestFrameLoadPicture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/example/TestJscrollpane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/jframe_practic/01 (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/jframe_practic/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/jframe_practic/FramTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/jframe_practic/Frame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/jframe_practic/FrameQuestion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/jframe_practic/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/lab/Apartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/lab/Apartment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/lab/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/lab/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/lab/TestHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/lab/TestHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/TestDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/TestHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/les_18_set_map/TestHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b/C.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums_lessen/Season.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums_lessen/TestSeason.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/FrameTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/example/FrameTry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/TestFrameLoadPicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/example/TestFrameLoadPicture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/TestJscrollpane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/example/TestJscrollpane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home_practic/url_load" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/url_load" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home_practic/url_load/FileDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/url_load/FileDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home_practic/url_load/FrameLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/url_load/FrameLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jframe_practic/01 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/jframe_practic/01 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jframe_practic/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/jframe_practic/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jframe_practic/FramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/jframe_practic/FramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jframe_practic/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/jframe_practic/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jframe_practic/FrameQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/jframe_practic/FrameQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jframe_practic/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_practic/jframe_practic/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab/Apartment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab/TestHouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab/TypeOfBuilding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/les_17_collections_list/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/les_17_collections_list/TestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/les_18_set_map/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/les_18_set_map/HashSetTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/les_18_set_map/HashSetTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/les_18_set_map/TestDictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/les_18_set_map/TestHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/les_18_set_map/TestHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/les_4/TaskAlfavit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/les_4/TaskAlfavit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,11 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home_practic/calculator/TestCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab/House.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addAllApartment#0;class#House#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home_practic/calculator/CalculatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="1105">
               <caret line="70" column="78" selection-start-line="70" selection-start-column="78" selection-end-line="70" selection-end-column="78" />
             </state>
           </provider>
@@ -210,7 +168,13 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="home_practic" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_les_11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
@@ -220,8 +184,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +193,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="189" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="232" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547997849679" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myCalculator" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -331,10 +295,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestHouse" />
-      <item itemvalue="Application.TestCalculator" />
       <item itemvalue="Application.FramTest" />
+      <item itemvalue="Application.TestCalculator" />
       <item itemvalue="Application.TestFrameLoadPicture" />
+      <item itemvalue="Application.TestHouse" />
       <item itemvalue="Application.TestJscrollpane" />
     </list>
     <recent_temporary>
@@ -385,9 +349,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49914238" visible="true" weight="0.2184466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49914238" visible="true" weight="0.22168285" />
       <window_info id="Structure" order="1" sideWeight="0.50085765" side_tool="true" weight="0.21601942" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +364,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.328341" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32949308" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32949308" />
@@ -787,21 +750,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addAllApartment#0;class#House#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/Apartment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home_practic/calculator/TestCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -814,15 +773,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home_practic/calculator/CalculatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="1105">
           <caret line="70" column="78" selection-start-line="70" selection-start-column="78" selection-end-line="70" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/home_practic/calculator/TestCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/lab/House.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addAllApartment#0;class#House#0" />
+          </folding>
         </state>
       </provider>
     </entry>
