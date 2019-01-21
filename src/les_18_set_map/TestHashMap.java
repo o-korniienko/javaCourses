@@ -31,7 +31,7 @@ public class TestHashMap {
 
         //print all months with 31 days:
 
-        Set<Map.Entry<String, Integer>> set = map.entrySet();
+      /*  Set<Map.Entry<String, Integer>> set = map.entrySet();
         for (Map.Entry<String, Integer> item : set) {
             if (item.getValue() == 31) System.out.println(item);
         }
@@ -40,6 +40,14 @@ public class TestHashMap {
         Set<Map.Entry<String, Integer>> set2 = map.entrySet();
         for (Map.Entry<String, Integer> item : set2) {
             if (item.getKey().contains("a")) System.out.println(item);
+        }*/
+
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if (entry.getValue() == 31) System.out.println(entry);
+        }
+        System.out.println("-------------------------");
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if (entry.getKey().contains("a")) System.out.println(entry);
         }
     }
 }

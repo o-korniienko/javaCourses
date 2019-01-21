@@ -10,7 +10,7 @@ public class HashSetTask {
 
         while (set.size() < 10) {
             set.add((int) (Math.random() * 10));
-            System.out.println(set);
+           System.out.println(set);
         }
         Iterator<Integer> it = set.iterator();
         for (int i = 0; i < 3; i++) {

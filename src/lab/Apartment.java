@@ -1,9 +1,11 @@
 package lab;
 
-public class Apartment {
+import java.io.Serializable;
+
+public class Apartment implements Serializable, Comparable {
     private int id;
     private int apartmentNumber;
-    private double area;
+    private int area;
     private int floor;
     private int numberOfRooms;
     private int lifetime;
@@ -11,7 +13,7 @@ public class Apartment {
 
     public Apartment(int numberOfRooms) {
         this.apartmentNumber = (int) (Math.random() * 100);
-        this.area = (Math.random() * 31 + 15);
+        this.area = (int) (Math.random() * 31 + 15);
         this.floor = (int) (Math.random() * 9 + 1);
         this.numberOfRooms = numberOfRooms;
         this.lifetime = (int) (Math.random() * 51 + 100);
@@ -54,9 +56,18 @@ public class Apartment {
     }
 
     @Override
+    public int compareTo(Object other) {
+        Apartment that = (Apartment) other;
+        if (this.apartmentNumber==that.apartmentNumber){
+            return this.id - that.id;
+        }else{
+            return this.apartmentNumber - that.apartmentNumber;
+        }
+    }
+
+    @Override
     public String toString() {
-        return "Apartment{" +
-                "id=" + id +
+        return "id=" + id +
                 ", apartmentNumber=" + apartmentNumber +
                 ", area=" + area +
                 ", floor=" + floor +

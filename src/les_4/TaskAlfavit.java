@@ -16,7 +16,7 @@ public class TaskAlfavit {
             a[i] = (char) (i+start);
         }
 
-        for (char i = 'A'; i < 'Z'; i++) {
+        for (char i = 'home_practic.Calculator.CalculatorFrame'; i < 'Z'; i++) {
             a[i-start] = i;
         }
        */

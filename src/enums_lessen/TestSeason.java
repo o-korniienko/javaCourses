@@ -6,8 +6,9 @@ public class TestSeason {
     public static void main(String[] args) {
         Season s1 = Season.WINTER;
         Season s2 = Season.SUMMER;
+        System.out.println(nextSeason(Season.AUTUMN));
 
-        // enum -> String;
+        /*// enum -> String;
         System.out.println(s1 + " or " + s2 + "?");
 
         // String -> enum;
@@ -29,18 +30,25 @@ public class TestSeason {
 
         //enum -> index;
         Season leto = Season.SUMMER;
-        System.out.println(leto.ordinal());
+        System.out.println("index:" +leto.ordinal());
 
         //equales;
         System.out.println(leto.equals(s2));
         System.out.println(leto == s2);
 
         //sort;
-        Season[] seasons1 = new Season[3];
+        Season []seasons1 = new Season[3];
         seasons1[0] = Season.AUTUMN;
         seasons1[1] = Season.SUMMER;
         seasons1[2] = Season.WINTER;
         Arrays.sort(seasons1);
-        System.out.println(Arrays.toString(seasons1));
+        System.out.println(Arrays.toString(seasons1));*/
+    }
+
+    public static Season nextSeason(Season season) {
+        int seasonIndex = season.ordinal();
+        /*if (seasonIndex == Season.values().length - 1) return Season.values()[0];
+        else return Season.values()[seasonIndex + 1];*/
+        return Season.values()[(seasonIndex+1)%Season.values().length];
     }
 }

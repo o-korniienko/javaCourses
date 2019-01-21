@@ -20,7 +20,7 @@ public class TestArrayList {
 //        list.remove( Integer.valueOf(15));//by value!!!
 //        list.remove(new Integer(15)); //by value!!!
         System.out.println(list);
-        System.out.println(list.get(3));//a[0];
+        System.out.println(list.get(3));//a[3];
         list.set(0, 555);//a[o] = 555
         System.out.println(list);
         System.out.println(list.indexOf(15));

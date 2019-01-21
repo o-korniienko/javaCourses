@@ -1,41 +1,38 @@
 package lab;
 
-
+import java.io.*;
 import java.util.ArrayList;
 
-public class House {
+public class House implements Serializable{
     private String street;
     private int oneRoomCount;
     private int twoRoomCount;
     private int threeRoomCount;
-    private Apartment[] apartments;
+    private ArrayList<Apartment> apartments;
     private int index;
 
+    public static House loadFromFile(String fileName) {
+        House house = null;
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
+            house = (House) ois.readObject();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return house;
+    }
+
     public House(String street, int oneRoomCount, int twoRoomCount, int threeRoomCount) {
-        this.apartments = new Apartment[oneRoomCount + twoRoomCount + threeRoomCount + 1];
         this.street = street;
         this.oneRoomCount = oneRoomCount;
         this.twoRoomCount = twoRoomCount;
         this.threeRoomCount = threeRoomCount;
-        this.index = -1;
+        this.apartments = new ArrayList<>();
+        this.index = 0;
 
-        for (int i = 0; i < oneRoomCount; i++) {
-            addApartment(new Apartment(1));
-            apartments[index].setId(index + 1);
-        }
-        for (int i = 0; i < twoRoomCount; i++) {
-            addApartment(new Apartment(2));
-            apartments[index].setId(index + 1);
-        }
-        for (int i = 0; i <= threeRoomCount; i++) {
-            addApartment(new Apartment(3));
-            apartments[index].setId(index + 1);
-        }
-
-    }
-
-    public String getStreet() {
-        return street;
     }
 
     public int getOneRoomCount() {
@@ -50,82 +47,99 @@ public class House {
         return threeRoomCount;
     }
 
-
-    public void addApartment(Apartment apart) {
-        if (index >= apartments.length - 1) {
-            System.out.println("ERROR, no place for " + apart);
-            return;
-        }
-        apartments[++index] = apart;
+    public ArrayList<Apartment> getApartments() {
+        return apartments;
     }
 
-    public void delByid(int id) {
-        int ind = getIndex(id);
-        if (ind < 0) {
-            System.out.println("There is not apartment with that id: " + id);
-            return;
-        }
-        apartments[ind] = apartments[index];
-        apartments[index] = null;
-        index--;
+    public void addApartment(Apartment apartment) {
+        apartments.add(apartment);
+        apartment.setId(index +1);
+        index++;
     }
-
-    public int getIndex(int id) {
-        for (int i = 0; i < index; i++) {
-            if (apartments[i].getId() == id) return i;
+    public void addAllApartment(){
+        for (int i = 0; i < this.getOneRoomCount(); i++) {
+            addApartment(new Apartment(1));
         }
-        return -1;
+        for (int i = 0; i < this.getTwoRoomCount(); i++) {
+            addApartment(new Apartment(2));
+        }
+
+        for (int i = 0; i < this.getThreeRoomCount(); i++) {
+            addApartment(new Apartment(3));
+        }
+    }
+    public void saveToFile(String fileName) {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
+            oos.writeObject(this);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void findById(int id) {
         int f = 0;
-        for (int i = 0; i < index; i++) {
-            if (apartments[i].getId() == id) {
-                System.out.println(apartments[i]);
+        for (Apartment a : apartments) {
+            if (a.getId() == id) {
+                System.out.println(a);
                 f++;
             }
         }
         if (f == 0) System.out.println("There is not apartment with that id: " + id);
     }
 
+    public void delById(int id) {
+        int ind = -1;
+        for (Apartment a : apartments) {
+            if (a.getId() == id) {
+                ind = apartments.indexOf(a);
+
+            }
+        }
+        if (ind < 0) System.out.println("There is not apartment with that id: " + id);
+        else   apartments.remove(ind);
+    }
 
     public void printAll() {
-        System.out.println("House on " + street + ":");
-        for (int i = 0; i < index; i++) {
-            System.out.println(apartments[i]);
+        System.out.println("HouseArray on " + street + ":");
+        for (Apartment a : apartments) {
+            System.out.println(a);
         }
     }
 
-    public void printByRoomsCount(int rooms) {
+    public void printByRoomsCount(int roomsCount) {
         int f = 0;
-        for (int i = 0; i < index; i++) {
-            if (apartments[i].getNumberOfRooms() == rooms) {
-                System.out.println("ByRoomsCount: " + apartments[i]);
+        for (Apartment a : apartments) {
+            if (a.getNumberOfRooms() == roomsCount) {
+                System.out.println("ByRoomsCount: " + a);
                 f++;
             }
         }
-        if (f == 0) System.out.println("There are not those apartments");
+        if (f == 0) System.out.println("There are not apartments with that number of rooms : " + roomsCount);
     }
 
-    public void printByRoomsAndFloor(int rooms, int startfloor, int lastfloor) {
+    public void printByRoomsAndFloor(int roomsCount, int firstFloor, int lastFloor) {
         int f = 0;
-        for (int i = 0; i < index; i++) {
-            if (apartments[i].getNumberOfRooms() == rooms && (apartments[i].getFloor() >= startfloor && apartments[i].getFloor() <= lastfloor)) {
-                System.out.println("ByRoomsAndFloor: " + apartments[i]);
+        for (Apartment a : apartments) {
+            if (a.getNumberOfRooms() == roomsCount && (a.getFloor() >= firstFloor || a.getFloor() <= lastFloor)) {
+                System.out.println("ByRoomsAndFloor: " + a);
                 f++;
             }
         }
-        if (f == 0) System.out.println("There are not those apartments");
+        if (f == 0)
+            System.out.println("There are not apartments with that number of rooms (" + roomsCount + ")" +
+                    " on those floors: from " + firstFloor + " to " + lastFloor);
     }
 
-    public void printByArea(double area) {
+    public void printByArea(int area) {
         int f = 0;
-        for (int i = 0; i < index; i++) {
-            if (apartments[i].getArea() > area) {
-                System.out.println("ByArea: " + apartments[i]);
+        for (Apartment a : apartments) {
+            if (a.getArea() > area) {
+                System.out.println("ByArea: " + a);
                 f++;
             }
         }
-        if (f == 0) System.out.println("there are not those apartments");
+        if (f == 0) System.out.println("there are not apartments with this area: " + area);
     }
 }
