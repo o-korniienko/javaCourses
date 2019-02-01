@@ -2,7 +2,7 @@ package lab;
 
 import java.io.Serializable;
 
-public class Apartment implements Serializable, Comparable {
+public class Apartment implements Serializable {
     private int id;
     private int apartmentNumber;
     private int area;
@@ -56,16 +56,6 @@ public class Apartment implements Serializable, Comparable {
     }
 
     @Override
-    public int compareTo(Object other) {
-        Apartment that = (Apartment) other;
-        if (this.apartmentNumber==that.apartmentNumber){
-            return this.id - that.id;
-        }else{
-            return this.apartmentNumber - that.apartmentNumber;
-        }
-    }
-
-    @Override
     public String toString() {
         return "id=" + id +
                 ", apartmentNumber=" + apartmentNumber +
@@ -73,7 +63,6 @@ public class Apartment implements Serializable, Comparable {
                 ", floor=" + floor +
                 ", numberOfRooms=" + numberOfRooms +
                 ", lifetime=" + lifetime +
-                ", type='" + type + '\'' +
-                '}';
+                ", type='" + type + '\''+ "\n";
     }
 }

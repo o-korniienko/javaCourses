@@ -2,14 +2,88 @@ package lab;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.StringJoiner;
 
-public class House implements Serializable{
+public class House implements Serializable {
     private String street;
     private int oneRoomCount;
     private int twoRoomCount;
     private int threeRoomCount;
     private ArrayList<Apartment> apartments;
     private int index;
+    public static Comparator<Apartment> BY_APARTMENT_NUMBER;
+    public static Comparator<Apartment> BY_ID;
+    public static Comparator<Apartment> BY_FLOOR;
+    public static Comparator<Apartment> BY_AREA;
+    public static Comparator<Apartment> BY_NUMBER_OF_ROOMS;
+    public static Comparator<Apartment> BY_LIFE_TIME;
+    public static Comparator<Apartment> BY_TYPE_OF_BUILDING;
+
+    static {
+        BY_APARTMENT_NUMBER = new Comparator<Apartment>() {
+            @Override
+            public int compare(Apartment o1, Apartment o2) {
+                return o1.getApartmentNumber() - o2.getApartmentNumber();
+            }
+        };
+    }
+
+    static {
+        BY_ID = new Comparator<Apartment>() {
+            @Override
+            public int compare(Apartment o1, Apartment o2) {
+                return o1.getId() - o2.getId();
+            }
+        };
+    }
+
+    static {
+        BY_FLOOR = new Comparator<Apartment>() {
+            @Override
+            public int compare(Apartment o1, Apartment o2) {
+                return o1.getFloor() - o2.getFloor();
+            }
+        };
+    }
+
+    static {
+        BY_AREA = new Comparator<Apartment>() {
+            @Override
+            public int compare(Apartment o1, Apartment o2) {
+                return (int) (o1.getArea() - o2.getArea());
+            }
+        };
+    }
+
+    static {
+        BY_NUMBER_OF_ROOMS = new Comparator<Apartment>() {
+            @Override
+            public int compare(Apartment o1, Apartment o2) {
+                return o1.getNumberOfRooms() - o2.getNumberOfRooms();
+            }
+        };
+    }
+
+    static {
+        BY_LIFE_TIME=new Comparator<Apartment>() {
+            @Override
+            public int compare(Apartment o1, Apartment o2) {
+                return o1.getLifetime()-o2.getLifetime();
+            }
+        };
+    }
+
+    static {
+        BY_TYPE_OF_BUILDING = new Comparator<Apartment>() {
+            @Override
+            public int compare(Apartment o1, Apartment o2) {
+                return o1.getType().compareTo(o2.getType());
+            }
+        };
+    }
+
 
     public static House loadFromFile(String fileName) {
         House house = null;
@@ -51,12 +125,17 @@ public class House implements Serializable{
         return apartments;
     }
 
+    public void sort(Comparator<Apartment> comparator) {
+        Collections.sort(apartments, comparator);
+    }
+
     public void addApartment(Apartment apartment) {
         apartments.add(apartment);
-        apartment.setId(index +1);
+        apartment.setId(index + 1);
         index++;
     }
-    public void addAllApartment(){
+
+    public void addAllApartment() {
         for (int i = 0; i < this.getOneRoomCount(); i++) {
             addApartment(new Apartment(1));
         }
@@ -68,6 +147,19 @@ public class House implements Serializable{
             addApartment(new Apartment(3));
         }
     }
+
+    public void delById(int id) {
+        int ind = -1;
+        for (Apartment a : apartments) {
+            if (a.getId() == id) {
+                ind = apartments.indexOf(a);
+
+            }
+        }
+        if (ind < 0) System.out.println("There is no apartment with this id: " + id);
+        else apartments.remove(ind);
+    }
+
     public void saveToFile(String fileName) {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
             oos.writeObject(this);
@@ -78,68 +170,71 @@ public class House implements Serializable{
         }
     }
 
-    public void findById(int id) {
-        int f = 0;
-        for (Apartment a : apartments) {
-            if (a.getId() == id) {
-                System.out.println(a);
-                f++;
+    public Apartment findById(int id) {
+        Apartment apartment = null;
+        try {
+            for (Apartment a : apartments) {
+                if (a.getId() == id) {
+                    apartment = a;
+                }
             }
+            if (apartment == null) throw new Exception();
+        } catch (Exception e) {
+            System.out.println("There is no apartment with this id: " + id);
         }
-        if (f == 0) System.out.println("There is not apartment with that id: " + id);
+        return apartment;
     }
 
-    public void delById(int id) {
-        int ind = -1;
-        for (Apartment a : apartments) {
-            if (a.getId() == id) {
-                ind = apartments.indexOf(a);
-
+    public ArrayList<Apartment> findByRoomsCount(int roomsCount) {
+        ArrayList<Apartment> apar = new ArrayList<>();
+        try {
+            for (Apartment a : apartments) {
+                if (a.getNumberOfRooms() == roomsCount) {
+                    apar.add(a);
+                }
             }
+            if (apar.size() == 0) throw new Exception();
+        } catch (Exception e) {
+            System.out.println("There are no apartments with this number of rooms : " + roomsCount);
         }
-        if (ind < 0) System.out.println("There is not apartment with that id: " + id);
-        else   apartments.remove(ind);
+        return apar;
+    }
+
+    public ArrayList<Apartment> findByRoomsAndFloor(int roomsCount, int firstFloor, int lastFloor) {
+        ArrayList<Apartment> apar = new ArrayList<>();
+        try {
+            for (Apartment a : apartments) {
+                if (a.getNumberOfRooms() == roomsCount && (a.getFloor() >= firstFloor && a.getFloor() <= lastFloor)) {
+                    apar.add(a);
+                }
+            }
+            if (apar.size()==0) throw  new Exception();
+        } catch (Exception e) {
+            System.out.println("There are no apartments with this number of rooms (" + roomsCount + ")" +
+                    " on these floors: from " + firstFloor + " to " + lastFloor);
+        }
+        return apar;
+    }
+
+    public ArrayList<Apartment> findByAreaGreaterThan(int area) {
+        ArrayList<Apartment> apar = new ArrayList<>();
+        try {
+            for (Apartment a : apartments) {
+                if (a.getArea() > area) {
+                    apar.add(a);
+                }
+            }
+            if (apar.size()==0) throw new Exception();
+        } catch (Exception e) {
+            System.out.println("there are no apartments with this area: " + area);
+        }
+        return apar;
     }
 
     public void printAll() {
-        System.out.println("HouseArray on " + street + ":");
+        System.out.println("House on " + street + ":");
         for (Apartment a : apartments) {
             System.out.println(a);
         }
-    }
-
-    public void printByRoomsCount(int roomsCount) {
-        int f = 0;
-        for (Apartment a : apartments) {
-            if (a.getNumberOfRooms() == roomsCount) {
-                System.out.println("ByRoomsCount: " + a);
-                f++;
-            }
-        }
-        if (f == 0) System.out.println("There are not apartments with that number of rooms : " + roomsCount);
-    }
-
-    public void printByRoomsAndFloor(int roomsCount, int firstFloor, int lastFloor) {
-        int f = 0;
-        for (Apartment a : apartments) {
-            if (a.getNumberOfRooms() == roomsCount && (a.getFloor() >= firstFloor || a.getFloor() <= lastFloor)) {
-                System.out.println("ByRoomsAndFloor: " + a);
-                f++;
-            }
-        }
-        if (f == 0)
-            System.out.println("There are not apartments with that number of rooms (" + roomsCount + ")" +
-                    " on those floors: from " + firstFloor + " to " + lastFloor);
-    }
-
-    public void printByArea(int area) {
-        int f = 0;
-        for (Apartment a : apartments) {
-            if (a.getArea() > area) {
-                System.out.println("ByArea: " + a);
-                f++;
-            }
-        }
-        if (f == 0) System.out.println("there are not apartments with this area: " + area);
     }
 }

@@ -2,24 +2,24 @@ package lab;
 
 public class TestHouse {
     public static void main(String[] args) {
-       /* House house = new House("Shevchenko 10A",15,8,7);
+        /*House house = new House("Shevchenko 10A", 15, 8, 7);
         house.addAllApartment();*/
 
 
         House house = House.loadFromFile("house.dat");
-        house.getApartments().sort(Apartment::compareTo);
 
 
-        //house.delById(25);
-        house.saveToFile("house.dat");
-        house.printAll();
+        house.sort(House.BY_APARTMENT_NUMBER.thenComparing(House.BY_ID));
+        house.delById(25);
+        //house.saveToFile("house.dat");
+        //house.printAll();
         System.out.println("----------------");
-        house.findById(13);
+        System.out.println("By id: " + house.findById(12));
         System.out.println("----------------");
-        house.printByRoomsCount(1);
+        System.out.println("By rooms count: " + house.findByRoomsCount(1));
         System.out.println("----------------");
-        house.printByRoomsAndFloor(2, 2, 5);
+        System.out.println("By rooms count and floor: " + house.findByRoomsAndFloor(2, 2, 5));
         System.out.println("----------------");
-        house.printByArea(41);
+        System.out.println("By area: " + house.findByAreaGreaterThan(41));
     }
 }

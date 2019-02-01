@@ -2,7 +2,6 @@ package les_18_set_map;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class TestHashMap {
     public static void main(String[] args) {
